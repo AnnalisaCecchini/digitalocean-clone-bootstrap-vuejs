@@ -1,0 +1,554 @@
+/* GENERAL */
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+}
+
+/* TYPOGRAPHY */
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #031b4e;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 120%;
+}
+
+p {
+  color: #5b6886;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a:hover {
+  color: #fff;
+  background: #1633ff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.link:hover {
+    padding: 4px;
+}
+
+.p-small {
+  font-size: 15px;
+}
+
+.darkblue {
+  color: #031b4e;
+}
+
+.bluefluo {
+  color: #1633ff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.bgwhite {
+  background: #fff;
+}
+
+.bggray {
+  background: #f3f5f9;
+}
+
+/* UTILITIES */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.circles {
+  color: #1633ff;
+  margin: auto;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* NAV BAR */
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.navbar-left {
+  padding-left: 160px;
+}
+
+.navbar-nav i {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.navbar-btn {
+  color: #1633ff;
+  border: 1px solid;
+  transition: background .4s;
+}
+
+.navbar-btn:hover {
+  color: #fff;
+  background: #1633ff;
+  border: 1px solid;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  transition: color .4s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #1633ff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    /* Nascondi contenitore menu */
+   .navbar-collapse {
+       display: none;
+   }
+}
+
+/* SECTION 1 - Hero / Jumbotron */
+.jumbotron {
+  background-color: rgb(0, 105, 255);
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 70vh;
+}
+
+.jumbotron__left p {
+  color: rgb(255, 255, 255, .8);
+  padding-bottom: 20px;
+}
+
+.jumbotron__right {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.jumbotron__right .jumbo__form__title h2 {
+  text-align: center;
+}
+
+.jumbotron__right .jumbo__form__title:first-child {
+  line-height: 1.5;
+}
+
+.jumbotron__right .jumbo__form__title h2:nth-child(2) {
+  margin-top: 0;
+}
+
+.jumbotron__right .btn {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.jumbotron__right .btn-create {
+  background: #006aff;
+  color: #fff;
+}
+
+.btn-signup {
+  position: relative;
+  transition: background .4s;
+}
+
+.btn-img {
+  max-height: 15px;
+  margin-right: 50px;
+  position: absolute;
+  left: 5px;
+}
+
+.jumbo__form__input p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.form-group:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.btn-signup:hover {
+  background: #e24329;
+  color: #fff;
+}
+
+.btn-create {
+  transform: background .4s;
+}
+
+.btn-create:hover {
+  background: #fff;
+  color:  #e24329;
+  border: 1px solid;
+}
+
+.jumbo__form__input a:hover {
+  background: none;
+  padding: 0;
+  color:  #e24329;
+}
+
+
+/* SECTION 2 - Logos */
+.logos h6 {
+  text-transform: uppercase;
+  color: #5b6987;
+  padding-bottom: 10px;
+}
+
+.logos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logos__box {
+  margin-bottom: 10px;
+}
+
+.logos__list {
+  padding: 0;
+}
+
+
+.logos__list li {
+  width: calc((100% / 2) - 10px);
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logos__list a:hover {
+  background: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logos__list li {
+    width: calc((100% / 6) - 10px);
+  }
+}
+
+.logo__img {
+  max-width: 80%;
+}
+
+
+/* SECTION 3 - Deploy */
+.deploy  {
+  margin-top: 35px;
+}
+
+.deploy__left__list {
+  margin-left: 10px;
+  margin-bottom: 60px;
+  padding-left: 0;
+  border-left: 3px solid #e5e8ed;
+}
+
+.deploy__left__list li {
+  font-size: 17px;
+  color: #687695;
+  padding: 15px 20px;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .deploy__box--left-up,
+  .deploy__box--right-up {
+    height: 250px;
+  }
+}
+
+
+/* SECTION 4 - Slider */
+.slider__box {
+  position: relative;
+}
+
+.slider__arrow--left,
+.slider__arrow--right {
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+}
+
+.slider__arrow--right {
+  text-align: left;
+  right: 0px;
+}
+
+.slider__arrow--left {
+  text-align: right;
+}
+
+.slider__img img {
+  max-width: 100%;
+}
+
+.slider__footer p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.slider__footer i {
+    margin: 0px 10px;
+    cursor: pointer;
+    border: .25px solid #0159ff;
+    border-radius: 50%;
+    color: #fff;
+    transition: color .4s;
+  }
+
+.slider__footer i:hover {
+  color: rgba(255,255,255);
+}
+
+.slider__footer i.active {
+    color: #0159ff;
+}
+
+/* SECTION 6 - Services --> */
+.services {
+  background-image: linear-gradient(#1633ff, #120078);
+}
+
+.country__tab {
+  list-style: none;
+}
+
+.country__tab li {
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.country__tab__item span,
+.country__tab__item p,
+.country__tab__item a {
+  display: inline-block;
+  /* line-height: 2; */
+}
+
+.country__tab__item span {
+  color: #fff;
+  font-weight: 700;
+  width: calc((100% / 12) * 2);
+}
+
+.country__tab__item p {
+  color: rgb(255, 255, 255, .8);
+  width: calc((100% / 12) * 6);
+}
+
+.country__tab__item a {
+  color: #00d5d2;
+  width: calc((100% / 12) * 3);
+  text-align: center;
+  transform: color .4s;
+}
+
+.country__tab__item a:hover {
+  color: #fff;
+  padding: 0;
+  background: none;
+}
+
+.country__tab__item i {
+  padding-left: 5px;
+}
+
+.country__left {
+  margin-bottom: 20px;
+}
+
+/* SECTION 7 - Slider 2 --> */
+.slider2-center {
+  height: 300px;
+  background: #fff;
+}
+
+.slider-logo .slider__arrow--right,
+.slider-logo .slider__arrow--left {
+  top: 150px;
+}
+
+.slider2-center .blackbold {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.slider2-center img {
+    height: 50px;
+  }
+
+/* SECTION 8 - Get Started */
+.getstarted {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background: #220cbb;
+}
+
+.getstarted .btn {
+  background: #fff;
+  font-weight: 700;
+  padding: 10px;
+  transition: background .2s;
+}
+
+.getstarted .btn:hover {
+  background: #120078;
+  color: #fff;
+}
+
+/* SECTION 9 - Footer */
+.footerbar {
+  background: #120078;
+  padding: 60px 0;
+}
+
+.footerbar h5 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.footerbar ul {
+  padding-left: 0;
+}
+
+.footerbar li {
+  list-style: none;
+}
+
+.footerbar .social li {
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding-right: 8px;
+  font-size: 20px;
+  transition: color .4s;
+}
+
+.footerbar .p-2018 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin: 20px 0 0 0;
+}
+
+.footerbar a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  line-height: 2;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.footerbar a:hover,
+.footerbar .social li:hover {
+  color: #1633ff;
+  background: none;
+}
+
+.footerbar a:hover {
+  padding: 0;
+}
+
+
+/* Pos. Fixed */
+.fish {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  display: none;
+}
+
+.fish__cloud {
+  width: 250px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+
+.fish__cloud::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.fish img {
+  max-width: 100px;
+  background: #1633ff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.fish img:hover {
+  border:2px solid #f82ca6;
+}
+
+@media screen and (min-width: 1200px) {
+  .fish {
+    display: block;
+  }
+
+  .fish .fish__logo {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fish .fish__cloud {
+    position: fixed;
+    right: 135px;
+    bottom: 24px;
+  }
+}
