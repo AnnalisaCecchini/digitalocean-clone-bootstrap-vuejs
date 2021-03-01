@@ -9,7 +9,7 @@
 
 <p align="center">
     Digital Ocean is a cloud provider, specifically designed for developers. Their services help to deploy and scale applications.  
-    This is my clone of the homepage of [DigitalOcean](https://www.digitalocean.com). 
+    This is my clone of the homepage of DigitalOcean. 
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ The layout is Mobile-Fist Designed, I started the website production **from the 
 ----------
 
 :arrow_forward: Visit my website [annalisacecchini.com](https://annalisacecchini.com)  
-:arrow_forward: Download [my Resume](https://annalisacecchini.com/download)  
+:arrow_forward: Download [my Resume](https://annalisacecchini.com/downloads)  
 :arrow_forward: Send me an e-mail at [annalisacecchini.dev@gmail.com](mailTo:annalisacecchini.dev@gmail.com)  
 
 &copy; Annalisa Cecchini - 2020
